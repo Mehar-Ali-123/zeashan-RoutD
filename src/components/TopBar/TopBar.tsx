@@ -6,14 +6,14 @@ function TopBar() {
   return (
     <Container fluid>
       <Row>
-        <Col xs={8}>
+        <Col xs={7}>
           <div>
             <h4>Welcome back to ROUTD , Fedrick Deckow!</h4>
             <p>One line paragraph</p>
           </div>
         </Col>
-        <Col xs={4}>
-          <div className=" d-flex justify-content-end gap-3">
+        <Col xs={5}>
+          <div className="d-flex justify-content-end gap-3">
           <Button variant="primary" className="d-flex gap-2 align-items-center   px-4 radius"   >
           <FiPlus />
   New Route

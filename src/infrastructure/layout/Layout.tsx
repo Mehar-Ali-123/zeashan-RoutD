@@ -10,6 +10,7 @@ import TopBar from '../../components/TopBar/TopBar';
 import HeroCards from '../../components/HearoCards/HeroCards';
 import RegularCard from '../../components/RegularCard/RegularCard';
 import OrderDetails from '../../components/OrderDetails/OrderDetails';
+ 
 
 const Layout = () => {
     //The created store
@@ -63,9 +64,7 @@ const Layout = () => {
                                <HeroCards/>
                                <RegularCard/>
                                <OrderDetails/>
-                                <i className="fab fa-500px"></i>
-                                <Outlet />
-                            </div>
+                        </div>
                         </div>
                     </div>
                     {/* <RightSidebar />
