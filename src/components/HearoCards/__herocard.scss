@@ -1,7 +1,9 @@
+@import '../../assets/scss/variables';
+
 .hero-sidecard {
     position: relative;
     overflow: hidden;
-
+    background-color: $theme-clr;
 
     .yellow-circle {
         height: 120px;
@@ -17,7 +19,7 @@
         height: 80px;
         width: 80px;
         border-radius: 50%;
-        border: 6px solid #c30808;
+        border: 6px solid $red-clr;
         position: absolute;
         top: 47%;
         right: 4%;
@@ -37,7 +39,7 @@
         height: 170px;
         width: 170px;
         border-radius: 50%;
-        background-color: #92dacf;
+        background-color: $theme-shade;
         position: absolute;
         bottom: -5%;
         right: -10%;
@@ -58,16 +60,35 @@
             color: white;
             font-weight: 600;
         }
-        h3{
+
+        h3 {
             font-size: 26px;
             font-weight: 600;
             color: rgb(11, 37, 88);
         }
-        p{
+
+        p {
             color: white;
             font-size: 14px;
             font-weight: 500;
         }
     }
 
+    .btn-1 {
+        background-color: $purple-clr;
+        border: 0
+    }
+
+    .btn-1:hover {
+        background-color: $purple-clr !important;
+        opacity: 0.9;
+    }
+    .btn-2 {
+        background-color: $theme-shade;
+        border: 0
+    }
+    .btn-2:hover {
+        background-color: $theme-shade !important;
+        opacity: 0.9;
+    }
 }

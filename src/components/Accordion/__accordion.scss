@@ -1,22 +1,24 @@
+@import '../../assets/scss/variables';
+
 .accordion-bar {
-    background-color: white;
+    background-color: $white;
     border-radius: 12px;
 
     .accordion-title {
         font-size: 18px;
-        color: black;
+        color: $dark;
         font-weight: 500;
     }
 
     .accordion-subtitle {
         font-size: 12px;
-        color: #777777;
+        color: $muted;
         font-weight: 500;
     }
 
     .order-value {
         font-size: 12px;
-        color: #000000;
+        color: $dark;
         font-weight: 500;
         margin-left: 5px;
     }
@@ -26,19 +28,20 @@
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        background-color: greenyellow;
+        background-color: $green-clr;
     }
 
-    .indicator-next-title{
+    .indicator-next-title {
         font-size: 13px;
         font-weight: 500;
-        color: black;
+        color: $dark;
         margin-left: 7px;
     }
-    .order-qunatity{
+
+    .order-qunatity {
         font-size: 13px;
         font-weight: 500;
-        color: black;
+        color: $dark;
     }
 
 }

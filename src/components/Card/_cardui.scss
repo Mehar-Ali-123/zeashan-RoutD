@@ -1,14 +1,10 @@
+@import '../../assets/scss/variables';
+
 .data-card {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.data-card:hover {
-    cursor: pointer;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
 .card-icon-box {
-    background-color: #38CAB3;
     position: relative;
     width: 50px;
     height: 50px;
@@ -22,7 +18,7 @@
     position: absolute;
     width: 70%;
     height: 70%;
-    fill: white;
+    fill: $white;
 }
 
 .card-numbers {
@@ -32,19 +28,39 @@
 }
 
 .progress-content {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
-    color: black;
+    color: $dark;
+    display: flex;
+    align-items: center;
+    margin-left: -9px;
 
     .progress {
-        font-size: 12px;
-        color: green !important;
+        font-size: 14px;
         background: none;
+        align-items: center;
+    }
+
+    i {
+        font-size: 22px;
     }
 }
 
 .card-sub-title {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
-    color: black;
+    color: $dark;
+}
+
+.graph-line-img {
+    position: relative;
+    height: 70px;
+    width: 70px;
+
+    img {
+        object-fit: contain;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
 }

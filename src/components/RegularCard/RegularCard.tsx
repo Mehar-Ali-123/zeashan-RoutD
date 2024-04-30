@@ -6,7 +6,7 @@ function RegularCard() {
         <Container fluid className='mt-3'>
             <Row>
                 <Col xs={12} className="border bg-white radius py-2">
-                    <h5 className='mt-1 mx-3'>Data at Regular intervals</h5>
+                    <h5 className='mt-3 mx-3 fs-5'>Data at Regular intervals</h5>
                     <Card />
                 </Col>
             </Row>
