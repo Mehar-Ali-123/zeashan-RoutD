@@ -7,6 +7,7 @@ import {
     Tooltip,
 } from "react-bootstrap";
 import TopBar from '../../components/TopBar/TopBar';
+import HeroCards from '../../components/HearoCards/HeroCards';
 
 const Layout = () => {
     //The created store
@@ -57,6 +58,7 @@ const Layout = () => {
                                 className="main-container container-fluid mt-5"
                             >
                                <TopBar/>
+                               <HeroCards/>
                                 <i className="fab fa-500px"></i>
                                 <Outlet />
                             </div>

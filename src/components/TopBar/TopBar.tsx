@@ -13,12 +13,15 @@ function TopBar() {
           </div>
         </Col>
         <Col xs={4}>
-          <div className="border d-flex justify-content-end gap-3">
+          <div className=" d-flex justify-content-end gap-3">
           <Button variant="primary" className="d-flex gap-2 align-items-center   px-4 radius"   >
           <FiPlus />
   New Route
             </Button>
-            <Button variant="secondary">Button 2</Button>
+            <Button variant="primary" className="d-flex gap-2 align-items-center   px-4 radius"   >
+          <FiPlus />
+  New Route
+            </Button>
           </div>
         </Col>
       </Row>
