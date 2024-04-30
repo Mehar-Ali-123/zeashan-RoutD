@@ -24,9 +24,9 @@ function RegularCard() {
                             <div>
                                 <div>
                                     <p className='card-numbers mb-0 mt-2'>{card.number}</p>
-                                    <div>
-                                        <span className='mx-1'>
-                                            <i className="bi bi-arrow-up-short arrow-icon"></i>
+                                    <div className='progress-content d-flex'>
+                                        <span className='mx-1 progress'>
+                                            <i className="bi bi-arrow-up arrow-icon"></i>
                                             50%
                                         </span>
                                         <span>vs last week</span>

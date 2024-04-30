@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Cards from "../Card/Card"
+import "./__herocard.scss"
 
 function HeroCards() {
   return (
@@ -11,19 +12,25 @@ function HeroCards() {
           <Cards />
         </Col>
         <Col xs={4}>
-          <div className="border bg-primary radius p-3 h-100">
-            <div className='d-flex justify-content-between align-items-center'>
-              <h5 className='mb-0'>Current Subscription</h5>
-              <Button variant="success" className="d-flex gap-2 align-items-center   px-4 radius">
-                Basic
-              </Button>
-            </div>
-            <div>
+          <div className="border bg-primary radius p-3 h-100 d-flex flex-column justify-content-between hero-sidecard">
+            <div className='yellow-circle'></div>
+            <div className='bottom-circle'></div>
+            <div className='border-circle-1'></div>
+            <div className='border-circle-2'></div>
+            <div className='hero-sidecard-overlay'>
+              <div className='d-flex justify-content-between align-items-center'>
+                <h5 className='mb-0'>Current Subscription</h5>
+                <Button variant="success" className="d-flex gap-2 align-items-center px-4 radius">
+                  Basic
+                </Button>
+              </div>
               <h3 className='mb-0 mt-3'>$ 300 <span>/month</span></h3>
               <p className='mb-0 mt-2'>Want to get more features</p>
-              <Button variant="success" className="d-flex gap-2 align-items-center px-4 py-2 mt-3 radius">
-                Learn more
-              </Button>
+              <div>
+                <Button variant="success" className="d-flex gap-2 align-items-center px-4 py-2 mt-3 radius">
+                  Learn more
+                </Button>
+              </div>
             </div>
           </div>
         </Col>
