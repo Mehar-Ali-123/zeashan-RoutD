@@ -63,3 +63,4 @@ const RegularCard: React.FC = () => {
 };
 
 export default RegularCard;
+
