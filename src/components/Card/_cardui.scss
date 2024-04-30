@@ -1,7 +1,8 @@
 @import '../../assets/scss/variables';
 
 .data-card {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   height: 90% !important;
+    border: 1px solid rgba(128, 128, 128, 0.24);
 }
 
 .card-icon-box {
@@ -60,7 +61,7 @@
     img {
         object-fit: contain;
         position: absolute;
-        height: 100%;
+        height: 130%;
         width: 100%;
     }
 }

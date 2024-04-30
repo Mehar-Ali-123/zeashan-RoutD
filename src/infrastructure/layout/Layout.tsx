@@ -66,10 +66,7 @@ const Layout = () => {
                                <OrderDetails/>
                         </div>
                         </div>
-                    </div>
-                    {/* <RightSidebar />
-                    <Switcher />
-                    <Footer /> */}
+                    </div> 
                 </div>
             </div>
         </Fragment>
