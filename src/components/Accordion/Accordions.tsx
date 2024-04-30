@@ -1,7 +1,9 @@
+import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 import "./__accordion.scss"
 function BasicExample() {
+
   return (
     <Container fluid className='p-0'>
       <Accordion className='mb-3'>
@@ -39,6 +41,7 @@ function BasicExample() {
                     </div>
                   </Col>
                   <Col xs={7}>
+                    
                   </Col>
                 </Row>
               </Col>

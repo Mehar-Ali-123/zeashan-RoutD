@@ -1,6 +1,7 @@
 .data-card {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
 .data-card:hover {
     cursor: pointer;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -27,6 +28,19 @@
 .card-numbers {
     font-size: 24px;
     font-weight: 600;
+
+}
+
+.progress-content {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+
+    .progress {
+        font-size: 12px;
+        color: green !important;
+        background: none;
+    }
 }
 
 .card-sub-title {
